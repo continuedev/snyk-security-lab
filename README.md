@@ -67,7 +67,7 @@ These are plain markdown files in your repo. Version-controlled, reviewable, edi
 1. In your fork, open a PR from `test/add-admin-endpoint` to `main`
 2. Wait for checks to run (30-60 seconds)
 3. **Expected:** The Secure Patterns check flags three issues:
-   - Hardcoded API key (`sk_live_...`) on line 7 of `admin.js`
+   - Hardcoded API key on line 7 of `admin.js`
    - Missing `requireAuth` middleware on both route handlers
    - Missing input validation on the POST endpoint
 4. Review the suggested fixes and accept them
